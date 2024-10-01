@@ -33,7 +33,7 @@ const All: React.FC = () => {
 
     return (
         <>
-            <div className="App flex flex-col justify-center w-screen items-center h-screen bg-slate-950 text-white">
+            <div className="App flex flex-col justify-center items-center h-screen bg-slate-950 text-white">
                 <h1 className='text-3xl font-bold my-5'>Currency Exchange</h1>
                 <div>
                     <p className='text-center my-5'>

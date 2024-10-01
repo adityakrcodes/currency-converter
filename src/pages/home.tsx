@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 
 const App: React.FC = () => {
     const [amount, setAmount] = useState<number>(0);
-    const [fromCurrency, setFromCurrency] = useState<string>('USD');
+    const [fromCurrency] = useState<string>('USD');
     const [toCurrency, setToCurrency] = useState<string>('INR');
     const [exchangeRate, setExchangeRate] = useState<number>(0);
     const [currencies, setCurrencies] = useState<string[]>([]);
